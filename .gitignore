@@ -1,0 +1,22 @@
+# Large data files
+*.npz
+*.npy
+*.pth
+*.zip
+*.SAFE
+*.tif
+*.tiff
+*.nc
+*.h5
+*.hdf5
+
+# Ignore data contents but keep README files
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+
+# Python/Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
