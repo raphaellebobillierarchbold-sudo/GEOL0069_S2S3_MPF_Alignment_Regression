@@ -508,21 +508,11 @@ Overall, the project demonstrates that image alignment is not simply a preproces
 
 ## Video
 
-A short tutorial video should be added for the final submission.
+## Video explanation
 
-Suggested video structure:
+A video walkthrough explaining the notebooks, code structure, model training, results, and interpretation is available here:
 
-1. Introduce the research question.
-2. Explain why MPF matters.
-3. Explain the Sentinel-2/Sentinel-3 remote-sensing setup.
-4. Show the remote-sensing technique figure.
-5. Show the AI workflow diagram.
-6. Walk through the four notebooks.
-7. Show the final metrics table.
-8. Explain whether alignment improved performance.
-9. Discuss feature importance, limitations, and future work.
-
-Video link: `ADD VIDEO LINK HERE`
+https://drive.google.com/file/d/1TaML9D1dy7ICk1EqvTrZ_kPA10_j4P6Q/view?usp=drive_link
 
 ---
 
