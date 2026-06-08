@@ -107,7 +107,7 @@ GEOL0069_S2S3_MPF_Alignment_Regression/
 │
 ├── data/
 │   ├── raw/
-│   │   └── README_data.md
+│   │   └── README.md
 │   └── processed/
 │       ├── training_data_noalign.npz
 │       ├── training_data_aligned.npz
@@ -118,7 +118,7 @@ GEOL0069_S2S3_MPF_Alignment_Regression/
 │   ├── ai_algorithm_workflow.png
 │   ├── data_exploration/
 │   ├── alignment/
-│   ├── regression_results/
+│   ├── regression/
 │   └── xai/
 │
 ├── results/
@@ -138,8 +138,6 @@ GEOL0069_S2S3_MPF_Alignment_Regression/
 │   ├── neural_network_noalign.keras
 │   ├── neural_network_scaler_aligned.joblib
 │   ├── neural_network_scaler_noalign.joblib
-│   ├── random_forest_aligned.joblib
-│   ├── random_forest_noalign.joblib
 │   ├── gaussian_process_aligned.joblib
 │   └── gaussian_process_noalign.joblib
 │
@@ -223,8 +221,6 @@ The `models/` directory contains trained model artefacts saved from Notebook 3. 
 | `neural_network_noalign.keras` | Neural Network trained on no-alignment data |
 | `neural_network_scaler_aligned.joblib` | Feature scaler for aligned Neural Network |
 | `neural_network_scaler_noalign.joblib` | Feature scaler for no-alignment Neural Network |
-| `random_forest_aligned.joblib` | Random Forest trained on ECC-aligned data |
-| `random_forest_noalign.joblib` | Random Forest trained on no-alignment data |
 | `gaussian_process_aligned.joblib` | Gaussian Process trained on ECC-aligned data |
 | `gaussian_process_noalign.joblib` | Gaussian Process trained on no-alignment data |
 
@@ -237,6 +233,7 @@ The models are reproducible from the notebooks. To regenerate them, run:
 ```text
 notebooks/02_create_aligned_misaligned_datasets.ipynb
 notebooks/03_regression_models.ipynb
+```
 
 ### Note on GitHub file size
 
@@ -565,8 +562,8 @@ models/*.joblib
 models/*.keras
 
 # Keep documentation files
-!data/raw/README_data.md
-!data/processed/README_processed.md
+!data/raw/README.md
+!data/processed/README.md
 !models/README_models.md
 
 # Python and notebook clutter
