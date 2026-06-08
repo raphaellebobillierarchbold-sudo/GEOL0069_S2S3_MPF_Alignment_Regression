@@ -508,7 +508,6 @@ Overall, the project demonstrates that image alignment is not simply a preproces
 
 ## Video
 
-## Video explanation
 
 A video walkthrough explaining the notebooks, code structure, model training, results, and interpretation is available here:
 
