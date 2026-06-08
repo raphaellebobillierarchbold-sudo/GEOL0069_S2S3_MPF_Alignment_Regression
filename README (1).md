@@ -378,19 +378,19 @@ The best-performing model was **Polynomial Regression trained on the ECC-aligned
 
 #### Final metric comparisons
 
-![Final MSE comparison](figures/regression_results/final_mse_comparison.png)
+![Final MSE comparison](figures/regression/final_mse_comparison.png)
 
-![Final RMSE comparison](figures/regression_results/final_rmse_comparison.png)
+![Final RMSE comparison](figures/regression/final_rmse_comparison.png)
 
-![Final R2 comparison](figures/regression_results/final_r2_comparison.png)
+![Final R2 comparison](figures/regression/final_r2_comparison.png)
 
 #### Best model prediction and residual maps
 
-![Best model actual prediction residual maps](figures/regression_results/best_model_actual_prediction_residual_maps.png)
+![Best model actual prediction residual maps](figures/regression/best_model_actual_prediction_residual_maps.png)
 
 #### Best model actual vs predicted plot
 
-![Best model actual vs predicted](figures/regression_results/best_model_actual_vs_predicted.png)
+![Best model actual vs predicted](figures/regression/best_model_actual_vs_predicted.png)
 
 ---
 
