@@ -593,7 +593,3 @@ If the model artefacts are too large for normal GitHub upload, they can be regen
 This project was developed for **GEOL0069: Artificial Intelligence for Earth Observation** at UCL. The project builds on course practicals covering Sentinel-2/Sentinel-3 colocation, MPF regression, image alignment, Gaussian Processes, and Explainable AI.
 
 ---
-
-## License
-
-This repository is intended for educational coursework use. Add an appropriate open-source license, such as the MIT License, if the repository is made public.
