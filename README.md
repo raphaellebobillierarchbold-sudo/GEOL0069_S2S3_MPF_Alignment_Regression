@@ -555,7 +555,7 @@ To reproduce the project:
 
 - OpenCV documentation: `findTransformECC`. Used to implement ECC-based image alignment between gridded Sentinel-2 and Sentinel-3 reflectance.
 
-- scikit-learn documentation. Used for Polynomial Regression, Random Forest Regression, regression metrics, preprocessing, model saving, and permutation importance.
+- scikit-learn documentation for Polynomial Regression, Random Forest Regression, GaussianProcessRegressor, metrics, preprocessing, model saving, and permutation importance.
 
 - TensorFlow / Keras documentation. Used for the Neural Network regression model.
 
